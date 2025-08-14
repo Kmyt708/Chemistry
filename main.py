@@ -1,3 +1,5 @@
 import re
 
-print(re.findall('[A-Z][^A-Z]*', 'NaCl'))
+substance = input("Введите вещество: ")
+
+print(re.findall('[A-Z][^A-Z]*', substance))
